@@ -9,5 +9,9 @@ def hello_world():
 def about():
     return '51421667_2IA02'
 
+@app.route('/university')
+def about():
+    return 'Gunadarma_University'
+
 if __name__ == '__main__':
     app.run()
